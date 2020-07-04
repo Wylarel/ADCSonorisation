@@ -1,6 +1,8 @@
 # ADC Sonorisation Public Website
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://wylarel.com/mit/)
+[![Discord](https://img.shields.io/badge/Chat-Discord-blue)](https://discord.gg/7qvmeh2)
  
-This website was built for the [ADC Sonorisation](http://adcsonorisation.be/) belgian company using [Bootstrap](https://getbootstrap.com/) and the open-source [Lux Theme](https://bootswatch.com/lux/).
+This website was built for the [ADC Sonorisation](http://adcsonorisation.be/) belgian company using [Bootstrap](https://github.com/twbs/bootstrap) and the open-source [Lux Theme](https://github.com/thomaspark/bootswatch/tree/master/dist/lux).
 
 Every component of it except the name (ADC Sonorisation), the logo and the pictures are open-source:
 
