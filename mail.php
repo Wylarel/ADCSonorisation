@@ -13,10 +13,10 @@ if ($name and $email and $message and $subject) {
     if (mail($recipient, $subject, $content, $mailheader)) {
         print json_encode(array('message' => 'Merci pour votre message !', 'code' => 1));
     } else {
-        print json_encode(array('message' => 'Une erreur s\'est produite lors de l\'envoie', 'code' => 0));
+        print json_encode(array('message' => 'Une erreur s\'est produite lors de l\'envoi du formulaire, veuillez réessayer plus tard', 'code' => 0));
     }
 } else {
-    print json_encode(array('message' => 'Veuillez correctement remplir le formulaire', 'code' => 0));
+    print json_encode(array('message' => 'Tout les champs du formulaire doivent être remplis pour l\'envoyer', 'code' => 0));
 }
 
 ?>
